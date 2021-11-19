@@ -10,7 +10,7 @@ start node root {
     do {
         #connectSafe($endpoint);
         #waitForSpeech(1000);
-        #sayText("Hello! Thank you for calling the ACME Rockets and supplies hotline.");
+        #sayText("Thank you for visitng the ACME Rockets and supplies website.");
         #sayText(" I'm your artificially intelligent agent Dasha. How can I help you today?");
         wait *;
     }
